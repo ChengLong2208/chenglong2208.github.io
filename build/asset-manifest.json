@@ -1,26 +1,44 @@
 {
   "files": {
     "main.css": "/resume/static/css/main.f1dfb855.chunk.css",
-    "main.js": "/resume/static/js/main.c7fd318f.chunk.js",
-    "main.js.map": "/resume/static/js/main.c7fd318f.chunk.js.map",
+    "main.js": "/resume/static/js/main.93206b80.chunk.js",
+    "main.js.map": "/resume/static/js/main.93206b80.chunk.js.map",
     "runtime-main.js": "/resume/static/js/runtime-main.df5b4bf0.js",
     "runtime-main.js.map": "/resume/static/js/runtime-main.df5b4bf0.js.map",
     "static/css/2.d88a60dc.chunk.css": "/resume/static/css/2.d88a60dc.chunk.css",
-    "static/js/2.d6107aac.chunk.js": "/resume/static/js/2.d6107aac.chunk.js",
-    "static/js/2.d6107aac.chunk.js.map": "/resume/static/js/2.d6107aac.chunk.js.map",
+    "static/js/2.7ca6bb3b.chunk.js": "/resume/static/js/2.7ca6bb3b.chunk.js",
+    "static/js/2.7ca6bb3b.chunk.js.map": "/resume/static/js/2.7ca6bb3b.chunk.js.map",
     "index.html": "/resume/index.html",
-    "precache-manifest.bb87321c411879427c9f6c94037d2937.js": "/resume/precache-manifest.bb87321c411879427c9f6c94037d2937.js",
+    "precache-manifest.42c3596d0d147a2188143386b96cef44.js": "/resume/precache-manifest.42c3596d0d147a2188143386b96cef44.js",
     "service-worker.js": "/resume/service-worker.js",
     "static/css/2.d88a60dc.chunk.css.map": "/resume/static/css/2.d88a60dc.chunk.css.map",
     "static/css/main.f1dfb855.chunk.css.map": "/resume/static/css/main.f1dfb855.chunk.css.map",
-    "static/js/2.d6107aac.chunk.js.LICENSE.txt": "/resume/static/js/2.d6107aac.chunk.js.LICENSE.txt",
-    "static/media/person3.jpg": "/resume/static/media/person3.f7139bdd.jpg"
+    "static/js/2.7ca6bb3b.chunk.js.LICENSE.txt": "/resume/static/js/2.7ca6bb3b.chunk.js.LICENSE.txt",
+    "static/media/bg5.jpg": "/resume/static/media/bg5.092a9d6a.jpg",
+    "static/media/bg7.jpeg": "/resume/static/media/bg7.3dc450e9.jpeg",
+    "static/media/eventWebsite.png": "/resume/static/media/eventWebsite.b2d5337d.png",
+    "static/media/feedback1.png": "/resume/static/media/feedback1.2144144f.png",
+    "static/media/feedback2.jpg": "/resume/static/media/feedback2.47f64d85.jpg",
+    "static/media/feedback3.jpg": "/resume/static/media/feedback3.c698c48f.jpg",
+    "static/media/feedback4.jpg": "/resume/static/media/feedback4.3140b193.jpg",
+    "static/media/foodDelivery.png": "/resume/static/media/foodDelivery.419644ca.png",
+    "static/media/foodDelivery2.jpg": "/resume/static/media/foodDelivery2.7980965f.jpg",
+    "static/media/highQualityDesign.jpg": "/resume/static/media/highQualityDesign.c02ec595.jpg",
+    "static/media/jewelry.jpg": "/resume/static/media/jewelry.e4ce1a86.jpg",
+    "static/media/lifeStyleWebsite.png": "/resume/static/media/lifeStyleWebsite.a1e91feb.png",
+    "static/media/mobile1.jpg": "/resume/static/media/mobile1.a768366c.jpg",
+    "static/media/mobile2.png": "/resume/static/media/mobile2.9bb704ce.png",
+    "static/media/mobile3.jpg": "/resume/static/media/mobile3.d71427e3.jpg",
+    "static/media/onlineShoppingWebsite.jpg": "/resume/static/media/onlineShoppingWebsite.a95a9f1b.jpg",
+    "static/media/person3.jpg": "/resume/static/media/person3.f7139bdd.jpg",
+    "static/media/watchWebsite.jpg": "/resume/static/media/watchWebsite.061b5b63.jpg",
+    "static/media/whyChooseUs.png": "/resume/static/media/whyChooseUs.0552f5ba.png"
   },
   "entrypoints": [
     "static/js/runtime-main.df5b4bf0.js",
     "static/css/2.d88a60dc.chunk.css",
-    "static/js/2.d6107aac.chunk.js",
+    "static/js/2.7ca6bb3b.chunk.js",
     "static/css/main.f1dfb855.chunk.css",
-    "static/js/main.c7fd318f.chunk.js"
+    "static/js/main.93206b80.chunk.js"
   ]
 }
