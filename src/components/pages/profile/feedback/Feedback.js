@@ -7,12 +7,15 @@ import feedback4 from '../../../../images/feedback4.jpg';
 class Feedback extends Component {
     render() {
         return (
-            <div className="section">
+            <div className="section"   style={{'background-color':'#f3efe0'}}>
+                     <div className="container"  >
                 <div className="row">
-                    <div className="col s12 m12">
+                    <div className="col offset-m2 s12 m10">
                         <h3 className="flow-text cyan-text accent-2">Feedback</h3>
                     </div>
                 </div>
+                <div className="row" >
+                    <div className="col offset-m2" style={{padding:"0px"}}  ></div>
                 <ul className="collection">
                     <li class="collection-item avatar">
                     <img src={feedback1} alt="" class="circle responsive-img"></img>
@@ -44,6 +47,8 @@ class Feedback extends Component {
                       
                     </li>
                 </ul>
+           </div>
+            </div>
             </div>
         );
     }

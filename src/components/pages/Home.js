@@ -10,30 +10,27 @@ import Languages from './languages/Languages';
 import Contact from './contact/Contact';
 import SideNavbar from '../navbar/SideNavbar';
 import Feedback from './profile/feedback/Feedback';
-import backgroundImage1 from '../../images/bg7.jpeg'
+import backgroundImage1 from '../../images/background1.png'
 export default class Home extends Component {
 
 	render() {
 		return (
 			<section>
-				<div>
-				  <div  className='row hide-on-small-only'  style={{ backgroundImage:`url(${backgroundImage1})`, 'background-size':'1800px 600px','background-repeat':'no-repeat',height:'370px'}}>
-				 </div>
-				 <div  className='row show-on-small hide-on-med-and-up'  style={{ backgroundImage:`url(${backgroundImage1})`, 'background-size':'400px 500px','background-repeat':'no-repeat',height:'370px'}}>
-				 </div>
-					<div className='row'>
-						<div className="col m3">
-							<SideNavbar />
-						</div>
-						<div className='col s12 m6'>
-							<div className="section" >
-								<div className="row center-align">
-									<h2 className="cyan-text accent-2">Profile</h2>
-									<p>SOFTWARE ENGINEER</p>
+					<div className="row"  style={{ opacity: "1",zIndex:'10' }}>
+								<div className="col m2" >
+									<SideNavbar />
 								</div>
-								<div class="divider"></div>
 							</div>
-							<Profile/>
+				<div style={{ height: "722px", opacity: "1" }}>
+			
+				</div>
+			
+				<div style={{ opacity: '1', zIndex: '9', position: 'relative' }}>
+					<div className='row'>
+
+						<div className='col s12' style={{padding:'0px'}}>
+					
+							<Profile />
 							<div class="divider"></div>
 							<Educations />
 							<div class="divider"></div>

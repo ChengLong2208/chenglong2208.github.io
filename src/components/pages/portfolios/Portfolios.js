@@ -16,13 +16,15 @@ import mobile3 from '../../../images/mobile3.jpg';
 class Portfolios extends Component {
   render() {
     return (
-      <div className="section" id="portfolios">
+      <div className="section" id="portfolios" style={{'background-color':'#f3efe0'}}>
+            <div className="container" >
         <div className="row">
-				<div className="col s12 m12">
+				<div className="col offset-m2 s12 m10">
 					<h3 className="flow-text cyan-text accent-2">Portfolio</h3>
 				</div>
 			</div>
-      <div className="col s12 m4">
+      <div className="row">
+      <div className="col s12 offset-m2 m3">
       <div className="card">
         <div className="card-image">
           <img src={EventWebsite} className="materialboxed"></img>
@@ -30,7 +32,7 @@ class Portfolios extends Component {
         </div>
       </div>
     </div>
-    <div className="col s12 m4">
+      <div className="col s12 m3">
       <div className="card">
         <div className="card-image">
           <img src={onlineShoppingWebsite}  className="materialboxed"></img>
@@ -38,78 +40,88 @@ class Portfolios extends Component {
         </div>
       </div>
     </div>
-    <div className="col s12 m4">
+     <div className="col s12 m3">
       <div className="card">
         <div className="card-image">
           <img src={watchWebsite}  className="materialboxed"></img>
          </div>
       </div>
     </div>
-    <div className="col s12 m4">
+    </div>
+   
+    <div className="row">
+    <div className="col offset-m2 s12 m3">
       <div className="card">
         <div className="card-image">
           <img src={jewelry}  className="materialboxed"></img>
          </div>
       </div>
     </div>
-    <div className="col s12 m4">
+    <div className="col s12 m3">
       <div className="card">
         <div className="card-image">
           <img src={jewelry2}  className="materialboxed"></img>
          </div>
       </div>
     </div>
-    <div className="col s12 m4">
+    <div className="col s12 m3">
       <div className="card">
         <div className="card-image">
           <img src={whyChooseUs}  className="materialboxed"></img>
          </div>
       </div>
     </div>
-    <div className="col s12 m4">
+    </div>
+
+    <div className="row">
+    <div className="col offset-m2 s12 m3">
       <div className="card">
         <div className="card-image">
           <img src={foodDelivery}  className="materialboxed"></img>
          </div>
       </div>
     </div>
-    <div className="col s12 m4">
+    <div className="col s12 m3">
       <div className="card">
         <div className="card-image">
           <img src={foodDelivery2}  className="materialboxed"></img>
          </div>
       </div>
     </div>
-    <div className="col s12 m4">
+    <div className="col s12 m3">
       <div className="card">
         <div className="card-image">
           <img src={highQualityDesign}  className="materialboxed"></img>
          </div>
       </div>
     </div>
-    <div className="col s12 m4">
+    </div>
+    
+    <div className="row">
+    <div className="col offset-m2 s12 m3">
       <div className="card">
         <div className="card-image">
           <img src={mobile1}  className="materialboxed"></img>
          </div>
       </div>
     </div>
-    <div className="col s12 m4">
+    <div className="col s12 m3">
       <div className="card">
         <div className="card-image">
           <img src={mobile2}  className="materialboxed"></img>
          </div>
       </div>
     </div>
-    <div className="col s12 m4">
+    <div className="col s12 m3">
       <div className="card">
         <div className="card-image">
           <img src={mobile3}  className="materialboxed"></img>
          </div>
       </div>
     </div>
+    </div>
+    </div>
       </div>
-      
       
 
     );
