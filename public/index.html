@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      div.sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        background-color: yellow;
+        padding: 50px;
+        font-size: 20px;
+      }
+      </style>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/logo_final.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo_final.png" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css" />
+    <link href="https://terrymooreii.github.io/materialize-social/materialize-social.css" rel="stylesheet" type="text/css" />
+
+    
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"
+    ></script>
+    <script>
+      window.onscroll = function() {myFunction()};
+      
+      var navbar = document.querySelector("#navbar");
+      console.log("navbar"+navbar)
+      var sticky = navbar.offsetTop;
+      
+      function myFunction() {
+        console.log("called ---")
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+      </script>
+    <style> 
+      .card-image{
+    height: 200px; /* Your height here */
+    overflow: hidden;
+}
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    line-height: 1.1;
+ }
+ body {
+    font-size: 15px;
+    line-height: 1.64;
+}
+p {
+    margin: 0 0 10px;
+}
+    </style>
+    
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Best-Quality Development</title>
+  </head>
+  <body style="font-family: 'Open Sans', sans-serif !important;">
+    <div class="parallax-container" style="height:100%;width:100%;position: fixed;opacity: .85;">
+      <div class="parallax"><img src="background1.png" class="responsive-img"></img></div>
+      <div style="margin-top:350px;" class="show-on-medium-and-up hide-on-small-only">
+        <h4 class="center-align" style="align-content: center;color:powderblue;font-weight: 700;font-size: 3.8rem;">Actively Seeking Full-time Opportunities</h4>
+        <h4 class="center-align" style="align-content: center;color:powderblue;font-weight: 700;font-size: 3.8rem;">As a Software Developer</h4>
+      </div>
+      <div style="margin-top:150px;" class="hide-on-med-and-up show-on-small">
+        <h4 class="center-align" style="align-content: center;color:powderblue;font-weight: 700;font-size: 2.8rem;">Actively Seeking Full-time Opportunities</h4>
+        <h4 class="center-align" style="align-content: center;color:powderblue;font-weight: 700;font-size: 2.8rem;">As a Software Developer</h4>
+      </div>
+    </div>
+    
+    <div id="root"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+    <script>
+     
+     
+     $(document).ready(function(){
+       $('.sidenav').sidenav();
+    $('.materialboxed').materialbox();
+     $('.parallax').parallax();
+  });
+
+    </script>
+  </body>
+</html>
