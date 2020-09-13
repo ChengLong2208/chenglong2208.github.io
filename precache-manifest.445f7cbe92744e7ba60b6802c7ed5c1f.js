@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ca283ae813535d63637a6e8cdc1640cb",
+    "revision": "ffd8c0150a60eddc4322e12117181334",
     "url": "/index.html"
   },
   {
-    "revision": "888c7beb0111d3797bfd",
+    "revision": "d6a0341af3fd8b8abc45",
     "url": "/static/css/2.d88a60dc.chunk.css"
   },
   {
-    "revision": "da0fadf5faf9f28a656c",
+    "revision": "ae67eed32040631f1a9d",
     "url": "/static/css/main.f1dfb855.chunk.css"
   },
   {
-    "revision": "888c7beb0111d3797bfd",
-    "url": "/static/js/2.40f49b20.chunk.js"
+    "revision": "d6a0341af3fd8b8abc45",
+    "url": "/static/js/2.b586005e.chunk.js"
   },
   {
     "revision": "daedb6e9c1e75eb2181f2dde37df55f3",
-    "url": "/static/js/2.40f49b20.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.b586005e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "da0fadf5faf9f28a656c",
-    "url": "/static/js/main.d206e04f.chunk.js"
+    "revision": "ae67eed32040631f1a9d",
+    "url": "/static/js/main.8a5b5ffc.chunk.js"
   },
   {
     "revision": "6616787f2a19acc0c886",
@@ -74,6 +74,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a1e91feb5f50d85a66f1e0dbf283db53",
     "url": "/static/media/lifeStyleWebsite.a1e91feb.png"
+  },
+  {
+    "revision": "fd9d244c52f765c87f28b537f1d06ac8",
+    "url": "/static/media/m1.fd9d244c.png"
+  },
+  {
+    "revision": "74810e9678e8dff390beb8e0384a9de5",
+    "url": "/static/media/m2.74810e96.png"
+  },
+  {
+    "revision": "d50ee39d431d044cc0d7f82525e27676",
+    "url": "/static/media/m3.d50ee39d.jpg"
   },
   {
     "revision": "a768366c2195a0e69405355d1f004054",
