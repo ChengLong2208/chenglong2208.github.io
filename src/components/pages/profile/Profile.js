@@ -36,7 +36,7 @@ class Profile extends Component {
 							<h3 className="flow-text cyan-text accent-2">Details</h3>
 							<p>
 								<b>Name:</b><br></br>
-			                    Michael Cheng<br></br>
+			                    Jane Kruger<br></br>
 								<b>Age:</b><br></br>
 		                    	30 years<br></br>
 								<b>Location:</b><br></br>

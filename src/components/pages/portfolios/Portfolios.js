@@ -12,9 +12,6 @@ import watchWebsite from '../../../images/watchWebsite.jpg';
 import mobile1 from '../../../images/mobile1.jpg';
 import mobile2 from '../../../images/mobile2.png';
 import mobile3 from '../../../images/mobile3.jpg';
-import mobile4 from '../../../images/m1.png';
-import mobile5 from '../../../images/m2.png';
-import mobile6 from '../../../images/m3.jpg';
 
 class Portfolios extends Component {
   render() {
@@ -123,31 +120,6 @@ class Portfolios extends Component {
       </div>
     </div>
     </div>
-
-    <div className="row">
-    <div className="col offset-m2 s12 m3">
-      <div className="card">
-        <div className="card-image">
-          <img src={mobile4}  className="materialboxed" style={{height:"200px"}}></img>
-         </div>
-      </div>
-    </div>
-    <div className="col s12 m3">
-      <div className="card">
-        <div className="card-image">
-          <img src={mobile5}  className="materialboxed"></img>
-         </div>
-      </div>
-    </div>
-    <div className="col s12 m3">
-      <div className="card">
-        <div className="card-image">
-          <img src={mobile6}  className="materialboxed"></img>
-         </div>
-      </div>
-    </div>
-    </div>
-
     </div>
       </div>
       

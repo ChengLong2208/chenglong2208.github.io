@@ -16,22 +16,20 @@ export default class Home extends Component {
 	render() {
 		return (
 			<section>
-
-				<div className="row" style={{ opacity: "1", zIndex: '10' }}>
-					<div className="col m2" >
-						<SideNavbar />
-					</div>
-				</div>
-
+					<div className="row"  style={{ opacity: "1",zIndex:'10' }}>
+								<div className="col m2" >
+									<SideNavbar />
+								</div>
+							</div>
 				<div style={{ height: "722px", opacity: "1" }}>
-				
+			
 				</div>
-
+			
 				<div style={{ opacity: '1', zIndex: '9', position: 'relative' }}>
 					<div className='row'>
 
-						<div className='col s12' style={{ padding: '0px' }}>
-
+						<div className='col s12' style={{padding:'0px'}}>
+					
 							<Profile />
 							<div class="divider"></div>
 							<Educations />
